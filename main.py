@@ -5,7 +5,7 @@ vac = ""
 name = ""
 info = ""
 
-bot = telebot.TeleBot('5396738308:AAF6Sip9kpnXQioNP7wGQRdmFIquDeROC44')
+bot = telebot.TeleBot('TOKEN')
 @bot.message_handler(commands=["start"])
 def start(m, res=False):
 
